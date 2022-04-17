@@ -1,0 +1,54 @@
+div {
+    width: 10vw;
+    /* vw = viewport width. 1vw = 1% de la largeur de l'écran.  */
+    height: 10vh;
+    /* vh = viewport height. 1vh = 1% de la hauteur de l'écran. */
+    font-size: 1.5rem;
+    /* rem est une autre méthode pour définir la taille d'une police. C'est la taille relative à la taille paramétrée dans votre navigateur. Ici, dans nos divs il y aura 1.5 fois la taille de police par défaut du navigateur. 
+    https://medium.com/codeshake/unit%C3%A9s-de-mesures-em-vs-rem-eac03dbcb9c7 */
+}
+
+#divabsolute {
+    background-color: mistyrose;
+    border: 5px salmon solid;
+    position: absolute;
+    top: 40px;
+    left: 170px;
+    text-align: center;
+}
+
+
+/* La position absolute : enlève l'élément de son positionnement initial et le positionne selon nos consignes (top, left...) par rapport à son conteneur. Ici la div est contenue par le body, donc elle se positionne par rapport au body/à la page complète.  Les éléments suivants se recalent comme si cet élément n'avait jamais existé.*/
+
+#divfixed {
+    background-color: cornflowerblue;
+    border: 5px rgb(66, 255, 66) solid;
+    position: fixed;
+    bottom: 100px;
+    text-align: center;
+}
+
+
+/* La position fixed enlève elle aussi l'élément de son positionnement de base. Une fois fixé, l'élément reste au même endroit même pendant le défilement de la page et prend le dessus sur les autres éléments. */
+
+#divrelative {
+    background-color: fuchsia;
+    border: 3px black solid;
+    position: relative;
+    left: 20px;
+    text-align: center;
+}
+
+
+/* La position relative n'enlève pas l'élément de son positionnement intial. On change ce positionnement de façon relative au positionnement de base. Ici, on a juste décalé l'élément de 20px sur la gauche. Le reste de la page se comporte toujours normalement. */
+
+#divsticky {
+    background-color: yellow;
+    border: 5px red solid;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+
+/* le positionnement sticky garde l'élément à sa place de base. Quand on fait défiler la page, une fois l'emplacement choisi atteint, l'élément s'y "colle" (sticky) et y reste jusqu'à la fin du document. (Très utilisé pour les barres de navigation !) */
