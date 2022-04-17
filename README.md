@@ -3,6 +3,6 @@ Understand positions : absolute, fixed, relative, sticky
 
 #html #css
 
-PREVIEW
+<strong>PREVIEW<strong>
 
-![positions](https://user-images.githubusercontent.com/98356784/163707777-3e6a9b26-f3e0-416f-88cb-db851bc7744e.png)
+![positions](https://user-images.githubusercontent.com/98356784/163707855-040f10ab-142c-4fb9-848b-a81142040182.jpg)
