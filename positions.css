@@ -17,8 +17,8 @@ div {
     text-align: center;
 }
 
-
 /* La position absolute : enlève l'élément de son positionnement initial et le positionne selon nos consignes (top, left...) par rapport à son conteneur. Ici la div est contenue par le body, donc elle se positionne par rapport au body/à la page complète.  Les éléments suivants se recalent comme si cet élément n'avait jamais existé.*/
+
 
 #divfixed {
     background-color: cornflowerblue;
@@ -28,8 +28,8 @@ div {
     text-align: center;
 }
 
-
 /* La position fixed enlève elle aussi l'élément de son positionnement de base. Une fois fixé, l'élément reste au même endroit même pendant le défilement de la page et prend le dessus sur les autres éléments. */
+
 
 #divrelative {
     background-color: fuchsia;
@@ -39,8 +39,8 @@ div {
     text-align: center;
 }
 
-
 /* La position relative n'enlève pas l'élément de son positionnement intial. On change ce positionnement de façon relative au positionnement de base. Ici, on a juste décalé l'élément de 20px sur la gauche. Le reste de la page se comporte toujours normalement. */
+
 
 #divsticky {
     background-color: yellow;
@@ -49,6 +49,5 @@ div {
     top: 0px;
     text-align: center;
 }
-
 
 /* le positionnement sticky garde l'élément à sa place de base. Quand on fait défiler la page, une fois l'emplacement choisi atteint, l'élément s'y "colle" (sticky) et y reste jusqu'à la fin du document. (Très utilisé pour les barres de navigation !) */
